@@ -1,0 +1,41 @@
+/* .carousel-caption {
+    margin-bottom: 8rem;
+} */
+
+.carousel-portion::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+}
+
+.slide-btn {
+    color: #ffff;
+    border: none;
+    background: #289BDE;
+    padding: 12px 24px;
+}
+
+.section-gap {
+    margin-top: 100px;
+}
+
+/* For Mobile Devices */
+
+@media only screen and (max-width:576px) {
+    .tricky-section {
+        display: none;
+    }
+}
+
+/* For Tablets */
+
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .tricky-section {
+        display: none;
+    }
+}
