@@ -1,7 +1,6 @@
 /* .carousel-caption {
     margin-bottom: 8rem;
 } */
-
 .carousel-portion::before {
     content: "";
     position: absolute;
